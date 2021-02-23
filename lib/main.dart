@@ -36,7 +36,9 @@ class PokedexView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('P@kedex'),
+        title: Center(
+          child: Text('P@kedex'),
+        ),
         actions: <Widget>[
           IconButton(icon: Icon(Icons.search), onPressed: () {})
         ],
